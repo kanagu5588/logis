@@ -781,11 +781,14 @@ header {
 }
 .pricing .card-content .center{
   margin-top: 15%;
+  
 }
 .pricing .card-content .center p{
   margin-top: 7%;
   font-size: 15px;
   color:#565b5f;
+  font-family: 'Open Sans', sans-serif;
+   text-transform: none;
 }
 .pricing .card-content .center .text{
  text-decoration:line-through;
@@ -885,7 +888,7 @@ header {
 .FAQcontainer .assign #accordion-1{
   margin-top: 10px;
    width:950px;
-
+   
 
 }
 
@@ -895,7 +898,7 @@ header {
    background-color:#f7f8f9;
    padding: 10px 15px;
    border-radius: 4px ;
- 
+   
    
 }
 
@@ -903,7 +906,7 @@ header {
    font-size:var(--main-font-size);
    font-weight: bolder;
    color: #000000;
-   
+   text-transform: none;
 }
 
 
@@ -913,7 +916,8 @@ header {
 
 .FAQcontainer .assign #accordion-1 li .part p{
   padding: 5px 10px;
-  font-family: var(--second-font-family);
+  font-family: 'Open Sans', sans-serif;
+   text-transform: none;
   font-size: var(--p-font-size);
   font-weight: 400;
   margin-left: 4%;
@@ -1244,6 +1248,7 @@ footer .copyright h4{
  /*home*/
  .homecontainer{
   padding: 0 0rem;
+  min-height: 120vh;
  
  }
  .home {
@@ -1280,6 +1285,15 @@ footer .copyright h4{
   height: 50px;
   margin-left: 63.5%;
 }
+.home .num {
+  width: 90%;
+  margin-left: 5%;
+} 
+.home .num .num-2{
+  margin-left: 10px;
+  width: 100%;
+}
+
 
 /*shop*/
 .shopcontainer{
@@ -1347,10 +1361,11 @@ height: 45vh;
   display: inline;
 }
 .cardcontainer .card{
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-left: 10px;
 }
 .cardcontainer .card-text{
- padding: 1px 25px;
+ padding: 0px 25px;
 }
 /*call to action*/
 .callcontainer .action p{
@@ -1424,7 +1439,9 @@ padding: 0 1.0rem;
   font-size: 40px;
 }
 .FAQcontainer .assign #accordion-1{
-  width:350px;
+  width:380px;
+  padding: 0px 5px;
+  text-align: center;
 }
 
 /*footer*/
@@ -1454,9 +1471,7 @@ footer{
   
 
 }
-.footercontainer .foot-2 .class-1{
-  
-}
+
 
 .footercontainer .foot-2 .tag-1{
   padding: 0px 0px;
